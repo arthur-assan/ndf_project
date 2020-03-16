@@ -149,12 +149,12 @@
                                         >
                                             <a
                                                 href="upload-db.html"
-                                                class="dropdown-item active"
+                                                class="dropdown-item "
                                                 >Upload database</a
                                             >
                                             <a
                                                 href="show-vendor.html"
-                                                class="dropdown-item "
+                                                class="dropdown-item active"
                                                 >Show vendors</a
                                             >
                                             <a
@@ -204,34 +204,146 @@
                                 Vendor Data
                             </h1>
                             <div class="page-subtitle">
-                                Upload vendor database
+                                Show all Vendors
                             </div>
                         </div>
 
                         <!-- Body goes here -->
                         <div class="my-auto">
                             <div class="container">
-                                <form action="/file-upload" class="dropzone">
-                                    <div class="fallback">
-                                        <input
-                                            name="file"
-                                            type="file"
-                                            multiple
-                                        />
+                                <!-- start -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">
+                                            Filter vendor data
+                                        </h3>
                                     </div>
-                                </form>
-                                <div class="my-5 text-center">
-                                    <button
-                                        type="button"
-                                        class="btn btn-outline-dark mr-3"
-                                    >
-                                        <i class="fe fe-x-circle mr-2"></i>
-                                        Cancel
-                                    </button>
-                                    <button type="button" class="btn btn-cyan">
-                                        <i class="fe fe-check-circle mr-2"></i
-                                        >Upload database
-                                    </button>
+                                    <div class="table-responsive">
+                                        <table
+                                            class="table card-table table-vcenter text-nowrap datatable"
+                                        >
+                                            <thead>
+                                                <tr>
+                                                    <th class="w-1">
+                                                        Reg. Code
+                                                    </th>
+                                                    <th>Company Name</th>
+                                                    <th>Address (postal)</th>
+                                                    <th>Telephone No.</th>
+                                                    <th>Email</th>
+                                                    <th>Contact Person</th>
+                                                    <th>Location</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span class="text-muted"
+                                                            >CWQ1234</span
+                                                        >
+                                                    </td>
+                                                    <td>
+                                                        XYZ lumber and co.
+                                                    </td>
+                                                    <td>
+                                                        P.O.Box 699, Abuakwa
+                                                        State
+                                                    </td>
+                                                    <td>
+                                                        030567892
+                                                    </td>
+                                                    <td>
+                                                        xyzcompany.gmail.com
+                                                    </td>
+                                                    <td>
+                                                        Mr. Kofi Nti, 020345786
+                                                    </td>
+                                                    <td>Abuakwa State</td>
+                                                    <td class="text-right">
+                                                        <a
+                                                            href="./view-vendor.html"
+                                                            class="btn btn-outline-dark btn-sm"
+                                                            >View</a
+                                                        >
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span class="text-muted"
+                                                            >CWQ1234</span
+                                                        >
+                                                    </td>
+                                                    <td>
+                                                        XYZ lumber and co.
+                                                    </td>
+                                                    <td>
+                                                        P.O.Box 699, Abuakwa
+                                                        State
+                                                    </td>
+                                                    <td>
+                                                        030567892
+                                                    </td>
+                                                    <td>
+                                                        xyzcompany.gmail.com
+                                                    </td>
+                                                    <td>
+                                                        Mr. Kofi Nti, 020345786
+                                                    </td>
+                                                    <td>Abuakwa State</td>
+                                                    <td class="text-right">
+                                                        <a
+                                                            href="./view-vendor.html"
+                                                            class="btn btn-outline-dark btn-sm"
+                                                            >View</a
+                                                        >
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span class="text-muted"
+                                                            >CWQ1234</span
+                                                        >
+                                                    </td>
+                                                    <td>
+                                                        XYZ lumber and co.
+                                                    </td>
+                                                    <td>
+                                                        P.O.Box 699, Abuakwa
+                                                        State
+                                                    </td>
+                                                    <td>
+                                                        030567892
+                                                    </td>
+                                                    <td>
+                                                        xyzcompany.gmail.com
+                                                    </td>
+                                                    <td>
+                                                        Mr. Kofi Nti, 020345786
+                                                    </td>
+                                                    <td>Abuakwa State</td>
+                                                    <td class="text-right">
+                                                        <a
+                                                            href="./view-vendor.html"
+                                                            class="btn btn-outline-dark btn-sm"
+                                                            >View</a
+                                                        >
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <script>
+                                            require([
+                                                "datatables",
+                                                "jquery"
+                                            ], function(datatable, $) {
+                                                $(".datatable").DataTable();
+                                            });
+                                        </script>
+                                    </div>
+                                    <!-- Finish -->
                                 </div>
                             </div>
                         </div>
