@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Forestry Commission | Legal Timber System</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom Font Icons CSS-->
+    <link rel="stylesheet" href="css/landy-iconfont.css" />
+    <!-- Google fonts - Open Sans-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800"
+    />
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.css"
+    />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="index.html" class="navbar-brand">GFC - Legal Timber System</a>
+        <button
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul
+            class="navbar-nav ml-auto align-items-start align-items-lg-center"
+          >
+            <li class="nav-item">
+              <a href="index.html" class="nav-link link-scroll active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="catalog.html " class="nav-link link-scroll"
+                >Browse Catalog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="news.html" class="nav-link link-scroll ">News</a>
+            </li>
+          </ul>
+          <div class="navbar-text">
+            <!-- Button trigger modal--><a
+              href="#"
+              data-toggle="modal"
+              data-target="#signup"
+              class="btn btn-primary navbar-btn btn-shadow btn-gradient"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Modal-->
+    <div
+      id="signup"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="signup"
+      aria-hidden="true"
+      class="modal fade"
+    >
+      <div role="document" class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="exampleModalLabel" class="modal-title">Sign Up Modal</h5>
+            <button
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              class="close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="signupform" action="#">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input
+                  type="text"
+                  name="fullname"
+                  placeholder="Full Name"
+                  id="fullname"
+                />
+              </div>
+              <div class="form-group">
+                <label for="username">User Name</label>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="User Name"
+                  id="username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address"
+                  id="email"
+                />
+              </div>
+              <div class="form-group">
+                <button
+                  type="submit"
+                  class="submit btn btn-primary btn-shadow btn-gradient"
+                >
+                  Signup
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero section -->
+    <section id="hero" class="hero hero-home bg-gray">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-6 text order-2 order-lg-1">
+            <h1>Forestry commision &mdash; Legal Timber System</h1>
+            <p class="hero-text">
+              This project was setup to allow users to timber to get in touch
+              with legal timber vendors to purchase lumber for their work.
+            </p>
+            <div class="CTA">
+              <a href="#" class="btn btn-outline-primary">Read more</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="img/lumber.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How to use -->
+    <section id="browser" class="browser">
+      <div class="container text-center">
+        <h2 class="h3 mb-2">Connect with a legal lumber vendor</h2>
+        <h4 class="h5 mb-5">How it works</h4>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-3">
+            <div id="myTab" role="tablist" class="nav nav-tabs">
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <a
+                    id="nav-first-tab"
+                    data-toggle="tab"
+                    href="#nav-first"
+                    role="tab"
+                    aria-controls="nav-first"
+                    aria-expanded="true"
+                    class="nav-item nav-link active"
+                  >
+                    <span class="number">1</span>Enter your search query</a
+                  >
+                </div>
+                <div class="col-lg-12 my-4">
+                  <a
+                    id="nav-second-tab"
+                    data-toggle="tab"
+                    href="#nav-second"
+                    role="tab"
+                    aria-controls="nav-second"
+                    class="nav-item nav-link"
+                  >
+                    <span class="number">2</span>Choose a vendor from the list
+                    of suitable vendors</a
+                  >
+                </div>
+                <div class="col-lg-12 mt-4">
+                  <a
+                    id="nav-third-tab"
+                    data-toggle="tab"
+                    href="#nav-third"
+                    role="tab"
+                    aria-controls="nav-third"
+                    class="nav-item nav-link"
+                  >
+                    <span class="number">3</span>Contact the vendor</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 text-center">
+            <div class="browser-mockup">
+              <div id="nav-tabContent" class="tab-content">
+                <div
+                  id="nav-first"
+                  role="tabpanel"
+                  aria-labelledby="nav-first-tab"
+                  class="tab-pane fade show active"
+                >
+                  <img src="img/preview-1.png" alt="..." class="img-fluid" />
+                </div>
+                <div
+                  id="nav-second"
+                  role="tabpanel"
+                  aria-labelledby="nav-second-tab"
+                  class="tab-pane fade"
+                >
+                  <img src="img/preview-2.png" alt="..." class="img-fluid" />
+                </div>
+                <div
+                  id="nav-third"
+                  role="tabpanel"
+                  aria-labelledby="nav-third-tab"
+                  class="tab-pane fade"
+                >
+                  <img src="img/preview-3.png" alt="..." class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to action download application -->
+    <section id="features" class="features bg-success">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="text col-lg-6 order-1 order-lg-2">
+            <h2>Download our mobile application</h2>
+            <p class="text-white">
+              Have a more personalized experience and have your business right
+              in your hand.
+            </p>
+            <div class="CTA">
+              <a href="#" class="btn btn-outline-dark">Download</a>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-2 order-lg-1">
+            <img src="img/mobile copy.png" alt="..." class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us -->
+    <section id="about-us" class="about-us bg-gray">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="row">
+          <p class="lead col-lg-10">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            animi numquam inventore assumenda vitae consequuntur suscipit
+            explicabo mollitia dolores deserunt, officia itaque laudantium
+            recusandae officiis molestiae, necessitatibus quasi dolorum
+            asperiores!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact us  -->
+    <section id="contact" class="newsletter bg-wood">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="header">Contact us</h2>
+          <p class="lead text-white">
+            We are glad to here from you.
+          </p>
+        </div>
+        <div class="form-holder">
+          <form id="contact" action="#" class="row">
+            <div class="form-group col-6">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Kofi Ghana"
+              />
+            </div>
+
+            <div class="form-group col-6">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@example.com"
+              />
+            </div>
+
+            <div class="form-group col-12">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="10"
+                placeholder="Write your message here"
+              >
+              </textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="brand">Ghana Forestry Commission</a>
+            <ul class="contact-info list-unstyled">
+              <li>P.O.Box 678, Efie Kuma - Takoradi</li>
+              <li>GA-1234-5678</li>
+              <li><a href="mailto:sales@landy.com">email@fcgh.com</a></li>
+              <li><a href="#">+233 123 456 789</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="text-center">
+          <img src="img/googleplay.png" alt="google play" width="200px" />
+          <img src="img/appstore2.png" alt="appstore" width="200px" />
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2020 - GFC | Legal Timber System.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>

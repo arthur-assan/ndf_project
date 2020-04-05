@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Forestry Commission | Legal Timber System</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom Font Icons CSS-->
+    <link rel="stylesheet" href="css/landy-iconfont.css" />
+    <!-- Google fonts - Open Sans-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800"
+    />
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.css"
+    />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="index.html" class="navbar-brand">GFC - Legal Timber System</a>
+        <button
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul
+            class="navbar-nav ml-auto align-items-start align-items-lg-center"
+          >
+            <li class="nav-item">
+              <a href="index.html" class="nav-link link-scroll ">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="catalog.html" class="nav-link link-scroll"
+                >Browse Catalog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="news.html" class="nav-link link-scroll active">News</a>
+            </li>
+          </ul>
+          <div class="navbar-text">
+            <!-- Button trigger modal--><a
+              href="#"
+              data-toggle="modal"
+              data-target="#signup"
+              class="btn btn-primary navbar-btn btn-shadow btn-gradient"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Modal for signup-->
+    <div
+      id="signup"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      class="modal fade"
+    >
+      <div role="document" class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="exampleModalLabel" class="modal-title">Sign Up Modal</h5>
+            <button
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              class="close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="signupform" action="#">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input
+                  type="text"
+                  name="fullname"
+                  placeholder="Full Name"
+                  id="fullname"
+                />
+              </div>
+              <div class="form-group">
+                <label for="username">User Name</label>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="User Name"
+                  id="username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address"
+                  id="email"
+                />
+              </div>
+              <div class="form-group">
+                <button
+                  type="submit"
+                  class="submit btn btn-primary btn-shadow btn-gradient"
+                >
+                  Signup
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for news-->
+    <div
+      id="news"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      class="modal fade"
+    >
+      <div role="document" class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="exampleModalLabel" class="modal-title">
+              This will be the title of the news.
+            </h5>
+            <button
+              type="button"
+              data-dismiss="modal"
+              aria-label="Close"
+              class="close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body mt-5">
+            <div class="my-5">
+              <img src="img/lumber.jpg" alt="" height="200px" width="100%" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              corporis aspernatur delectus culpa, rerum, dicta repellendus non
+              deserunt, similique officia deleniti necessitatibus molestiae eos
+              vitae nisi repudiandae in iusto asperiores! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Dolorum mollitia repudiandae
+              natus porro, sit autem voluptatibus delectus nostrum deleniti
+              recusandae repellat molestias aspernatur quas iure qui ut tempore.
+              Soluta, delectus. Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Rerum rem repudiandae doloremque deleniti, vero,
+              molestiae molestias id, nulla odit laudantium fugit odio obcaecati
+              quidem illum quis nam quos consectetur reiciendis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Custom Search bar -->
+    <section id="newsletter" class="newsletter bg-search">
+      <div class="container text-center">
+        <h2>Know more about the timber industry</h2>
+        <div class="form-holder">
+          <form id="newsletterForm" action="#">
+            <div class="form-group">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Type search query here"
+              />
+              <button type="submit" class="btn btn-primary btn-gradient submit">
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Section for search results -->
+    <section class="news bg-gray">
+      <div class="container text-center">
+        <h2 class="h3">Recent News</h2>
+        <a
+          href="#"
+          class="row d-flex justify-content-center mt-5"
+          data-toggle="modal"
+          data-target="#news"
+        >
+          <div class="col-lg-3 news-image">
+            <img src="img/lumber.jpg" alt="" class="img-fluid" />
+          </div>
+
+          <div class="col-lg-9 news-article">
+            <p class="text-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              rerum vero corrupti dolores tempora maiores accusantium,
+              reprehenderit soluta perspiciatis nobis! Nisi error quisquam
+              sapiente consequuntur blanditiis animi id labore voluptates?
+            </p>
+          </div>
+        </a>
+
+        <nav aria-label="...">
+          <ul class="pagination-green">
+            <li class="page-item disabled">
+              <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active">
+              <span class="page-link">
+                2
+                <span class="sr-only">(current)</span>
+              </span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="brand">Ghana Forestry Commission</a>
+            <ul class="contact-info list-unstyled">
+              <li>P.O.Box 678, Efie Kuma - Takoradi</li>
+              <li>GA-1234-5678</li>
+              <li><a href="mailto:sales@landy.com">email@fcgh.com</a></li>
+              <li><a href="#">+233 123 456 789</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="text-center">
+          <img src="img/googleplay.png" alt="google play" width="200px" />
+          <img src="img/appstore2.png" alt="appstore" width="200px" />
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2020 - GFC | Legal Timber System.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
